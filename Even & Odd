@@ -1,0 +1,1 @@
+num = int(input("Enter an integer: "))                                      if num % 2 == 0:    print("Even")                             else:        print("Odd")       Run                                                Enter an integer: 7Odd
