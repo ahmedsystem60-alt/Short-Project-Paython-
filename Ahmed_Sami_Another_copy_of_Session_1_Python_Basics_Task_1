@@ -1,0 +1,192 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ahmedsystem60-alt/Short-Project-Paython-/blob/main/Ahmed_Sami_Another_copy_of_Session_1_Python_Basics_Task_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Wbn_Xib_5xXD"
+      },
+      "source": [
+        "# Session 1 — Python Basics: 3 Tasks\n",
+        "\n",
+        "Read each task carefully. Write your solution in the empty code cell under each task. These tasks practice `input()`, `print()`, variables, type casting, and basic arithmetic."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_XXDVf2f5xXI"
+      },
+      "source": [
+        "## Task 1: Personal Information\n",
+        "\n",
+        "**Objective:** Practice `input()`, variables, and `print()`.\n",
+        "\n",
+        "**Task:**\n",
+        "1. Ask the user to enter their name.\n",
+        "2. Ask the user to enter their age.\n",
+        "3. Print a message containing both their name and age.\n",
+        "\n",
+        "**Example Output:**\n",
+        "```text\n",
+        "Enter your name: Ahmed\n",
+        "Enter your age: 21\n",
+        "Hello Ahmed! You are 21 years old.\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "0L_HsLzN5xXJ"
+      },
+      "outputs": [],
+      "source": [
+        "# 1. Ask the user to enter their name.\n",
+        "name = input(\"Enter your name: \")\n",
+        "\n",
+        "# 2. Ask the user to enter their age.\n",
+        "age = input(\"Enter your age: \")\n",
+        "\n",
+        "# 3. Print a message containing both their name and age.\n",
+        "print(f\"Hello {name}! You are {age} years old.\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "gYpT17Hj5xXL"
+      },
+      "source": [
+        "## Task 2: The Age Calculator\n",
+        "\n",
+        "**Objective:** Practice `input()`, `int()`, and subtraction (`-`).\n",
+        "\n",
+        "**Task:**\n",
+        "1. Ask the user to enter the current year.\n",
+        "2. Ask the user to enter their birth year.\n",
+        "3. Convert both inputs to integers.\n",
+        "4. Calculate and print their age.\n",
+        "\n",
+        "**Example Output:**\n",
+        "```text\n",
+        "Enter the current year: 2026\n",
+        "Enter your birth year: 2005\n",
+        "Your age is: 21\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "3DXsb62H5xXL"
+      },
+      "outputs": [],
+      "source": [
+        "# 1. Ask the user to enter the current year.\n",
+        "current_year = input(\"Enter the current year: \")\n",
+        "\n",
+        "# 2. Ask the user to enter their birth year.\n",
+        "birth_year = input(\"Enter your birth year: \")\n",
+        "\n",
+        "# 3. Convert both inputs to integers.\n",
+        "current_year = int(current_year)\n",
+        "birth_year = int(birth_year)\n",
+        "\n",
+        "# 4. Calculate and print their age.\n",
+        "age = current_year - birth_year\n",
+        "print(f\"Your age is: {age}\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wWs6AFSc5xXM"
+      },
+      "source": [
+        "## Task 3: Simple Shopping Calculator\n",
+        "\n",
+        "**Objective:** Practice `float()`, `int()`, multiplication (`*`), and addition (`+`).\n",
+        "\n",
+        "**Task:**\n",
+        "1. Ask the user to enter the price of one item.\n",
+        "2. Ask the user to enter the quantity.\n",
+        "3. Convert the price to `float` and the quantity to `int`.\n",
+        "4. Calculate the total bill.\n",
+        "5. Print the total bill.\n",
+        "\n",
+        "**Example Output:**\n",
+        "```text\n",
+        "Enter item price: 10.5\n",
+        "Enter quantity: 3\n",
+        "Total bill: 31.5\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "q-zYW-xL5xXM"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "# 1. Ask the user to enter the price of one item.\n",
+        "price = input(\"Enter item price: \")\n",
+        "\n",
+        "# 2. Ask the user to enter the quantity.\n",
+        "quantity = input(\"Enter quantity: \")\n",
+        "\n",
+        "# 3. Convert the price to float and the quantity to int.\n",
+        "price = float(price)\n",
+        "quantity = int(quantity)\n",
+        "\n",
+        "# 4. Calculate the total bill.\n",
+        "total_bill = price * quantity\n",
+        "\n",
+        "# 5. Print the total bill.\n",
+        "print(f\"Total bill: {total_bill}\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "FQlMS2gE5xXN"
+      },
+      "source": [
+        "## Before You Submit\n",
+        "\n",
+        "- Run each code cell and test your answers.\n",
+        "- Check that your output matches the example format.\n",
+        "- Save your own copy in Google Drive."
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
