@@ -1,0 +1,266 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ahmedsystem60-alt/Short-Project-Paython-/blob/main/python_conditions_task\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "0s4U8O-a9JkB"
+      },
+      "source": [
+        "# Task: Python Conditions\n",
+        "\n",
+        "Solve each question in the code cell directly below it. Do not delete the questions.\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "9n0cz7au7DDe"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "0FYGUcuD7DeE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "AU_xx_sP9JkM",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "46e061fd-e119-4634-eaab-8b96088fa369"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter an integer: 7\n",
+            "Odd\n"
+          ]
+        }
+      ],
+      "source": [
+        "# طلب إدخال عدد صحيح من المستخدم\n",
+        "num = int(input(\"Enter an integer: \"))\n",
+        "\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "    print(\"Even\")\n",
+        "else:\n",
+        "    print(\"Odd\")\n",
+        "\n",
+        "\n",
+        "لتوضيح ذلك\n",
+        "، 7 ÷ 2 = 3، 3 × 2 = 6، 7 - 6 = 1 = عدد فردي"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KNLLOitX9JkK"
+      },
+      "source": [
+        "## 1. Even or Odd\n",
+        "Write a Python program that takes an integer from the user and checks whether the number is even or odd.\n",
+        "\n",
+        "**Example:** Input: `7` → Output: `Odd`"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2aU2zrw_9JkQ"
+      },
+      "source": [
+        "## 2. Student Grade\n",
+        "Write a Python program that takes a student's score from 0 to 100 and prints the grade:\n",
+        "- Score >= 90 → `A`\n",
+        "- Score >= 80 → `B`\n",
+        "- Score >= 70 → `C`\n",
+        "- Score >= 60 → `D`\n",
+        "- Otherwise → `F`\n",
+        "\n",
+        "Use `if`, `elif`, and `else`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "H5BPwE549JkS"
+      },
+      "outputs": [],
+      "source": [
+        "score = int(input(\"Enter the student's score: \"))\n",
+        "\n",
+        "if score >= 90:\n",
+        "    print(\"A\")\n",
+        "elif score >= 80:\n",
+        "    print(\"B\")\n",
+        "elif score >= 70:\n",
+        "    print(\"C\")\n",
+        "elif score >= 60:\n",
+        "    print(\"D\")\n",
+        "else:\n",
+        "    print(\"F\")\n",
+        "if اذا تحقق الشرط\n",
+        "elif جاري البحث عن الشرط\n",
+        "else اذا فشلت جميع المحولات السابقة"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "XRSjzwVl9JkT"
+      },
+      "source": [
+        "## 3. Login System (Nested If)\n",
+        "Build a simple login system using `Nested If`.\n",
+        "\n",
+        "- Username: `student`\n",
+        "- Password: `1234`\n",
+        "- If both are correct, print `Login Successful`.\n",
+        "- If the username is correct but the password is wrong, print `Wrong Password`.\n",
+        "- Otherwise, print `Wrong Username`."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "MocoJ9xI9JkV"
+      },
+      "outputs": [],
+      "source": [
+        "اكتب إجابتك هنا\n",
+        "username = input(\"Enter username: \")\n",
+        "password = input(\"Enter password: \")\n",
+        "\n",
+        "if username == \"student\":\n",
+        "    if password == \"1234\":\n",
+        "        print(\"Login Successful\")\n",
+        "    else:\n",
+        "        print(\"Wrong Password\")\n",
+        "else:\n",
+        "    print(\"Wrong Username\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "ON-Pc7N09JkW"
+      },
+      "source": [
+        "## 4. Number Checker\n",
+        "Write a Python program that takes an integer and checks:\n",
+        "- If the number is greater than 0, print `Positive`.\n",
+        "- If the number is less than 0, print `Negative`.\n",
+        "- Otherwise, print `Zero`.\n",
+        "\n",
+        "Then use a **Ternary Statement** to store `Even` or `Odd` in a variable and print it."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "XFYN3RKw9JkX",
+        "collapsed": true
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "number = int(input(\"Enter an integer: \"))\n",
+        "\n",
+        "if number > 0:\n",
+        "    print(\"Positive\")\n",
+        "elif number < 0:\n",
+        "    print(\"Negative\")\n",
+        "else:\n",
+        "    print(\"Zero\")\n",
+        "\n",
+        "result = \"Even\" if number % 2 == 0 else \"Odd\"\n",
+        "print(result)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "h8anUvQ-9JkZ"
+      },
+      "source": [
+        "## Bonus (Optional)\n",
+        "Write a Python program that takes a student's score and uses a **Ternary Statement** to print:\n",
+        "- Score >= 50 → `Pass`\n",
+        "- Otherwise → `Fail`\n",
+        "\n",
+        "**Example:** Input: `75` → Output: `Pass`\n",
+        "\n",
+        "*This question is optional.*"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gfyS_l6t9Jka",
+        "outputId": "ab8529f6-1d6c-44d0-805e-855d661e8c6f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter an student's score: 75\n",
+            "pass\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = int(input(\"Enter an student's score: \"))\n",
+        "if score >= 50:\n",
+        " print (\"pass\")\n",
+        "else:\n",
+        " print (\"fail\")\n",
+        "\n",
+        "Enter an student's score: 75\n",
+        "pass\n",
+        "طبعا علشان 70 اكبر من 50 ف تم تحقيق الشرط بنجاح تام"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
